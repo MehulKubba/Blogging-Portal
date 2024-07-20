@@ -8,7 +8,7 @@ from django.utils.html import format_html
 
 # Create your models here.
 
-# Category model
+
 
 
 class Category(models.Model):
@@ -27,7 +27,7 @@ class Category(models.Model):
         return self.title
 
 
-# Post Mode
+
 class Post(models.Model):
     post_id = models.AutoField(primary_key=True)
     title = models.CharField(max_length=200)
